@@ -1,13 +1,38 @@
 {
-  "name": "@ramsesgarate/rutjs",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@dnijs/rut",
+  "version": "0.1.0",
+  "description": "Modern JavaScript Rut utility library",
+  "license": "MIT",
+  "author": "Ramses Garate",
+  "sideEffects": false,
   "type": "module",
-  "exports": "./index.js",
-  "engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
-	},
-  "scripts": {},
-  "author": "",
-  "license": "ISC"
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "vitest dev",
+    "lint": "eslint --ext .ts",
+    "prepack": "unbuild",
+    "release": "pnpm test && standard-version && git push --follow-tags && pnpm publish",
+    "test": "pnpm lint && vitest run --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "10.0.0",
+    "@vitest/coverage-c8": "0.22.1",
+    "eslint": "8.23.0",
+    "standard-version": "9.5.0",
+    "typescript": "4.8.2",
+    "unbuild": "0.8.9",
+    "vitest": "0.22.1"
+  }
 }
