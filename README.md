@@ -43,10 +43,10 @@ pnpm install @dnijs/rut
 
 ```javascript
 //CJS
-const {  clean, format, generate, getCheckDigit, isValid } = require('@dnijs/rut')
+const {  clean, format, generate, getCheckDigit, isValid } = require('@rsgarate/rut')
 
 //ESM
-import {  clean, format, generate, getCheckDigit, isValid } from '@dnijs/rut'
+import {  clean, format, generate, getCheckDigit, isValid } from '@rsgarate/rut'
 
 
 clean('16.155.435-9')   // '161554359'
