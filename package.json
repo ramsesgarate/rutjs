@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "Modern JavaScript Rut utility library",
   "license": "MIT",
-  "author": "Ramses Garate",
+  "author": "'Ramses Garate <'rsgarate@gmail.com'>",
   "sideEffects": false,
   "type": "module",
   "exports": {
@@ -22,6 +22,14 @@
     "dni",
     "chile"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramsesgarate/rutjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramsesgarate/rutjs/issues"
+  },
+  "homepage": "https://github.com/ramsesgarate/rutjs#readme",
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
