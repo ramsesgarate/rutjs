@@ -12,17 +12,17 @@ Simple and small library of utilities to validate, generate and format the RUT. 
 [![Codecov][codecov-src]][codecov-href]
 
 
-[npm-version-src]: https://img.shields.io/npm/v/@dnijs/rut?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@dnijs/rut
+[npm-version-src]: https://img.shields.io/npm/v/@rsgarate/rut?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@rsgarate/rut
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@dnijs/rut?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@dnijs/rut
+[npm-downloads-src]: https://img.shields.io/npm/dm/@rsgarate/rut?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@rsgarate/rut
 
-[github-actions-src]: https://img.shields.io/github/workflow/status/unjs/@dnijs/rut/ci/main?style=flat-square
-[github-actions-href]: https://github.com/unjs/@dnijs/rut/actions?query=workflow%3Aci
+[github-actions-src]: https://img.shields.io/github/workflow/status/unjs/@rsgarate/rut/ci/main?style=flat-square
+[github-actions-href]: https://github.com/unjs/@rsgarate/rut/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/gh/unjs/@dnijs/rut/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/unjs/@dnijs/rut
+[codecov-src]: https://img.shields.io/codecov/c/gh/unjs/@rsgarate/rut/main?style=flat-square
+[codecov-href]: https://codecov.io/gh/unjs/@rsgarate/rut
 
 ## Installation
 
@@ -30,13 +30,13 @@ Install package:
 
 ```bash
 # npm
-npm install @dnijs/rut
+npm install @rsgarate/rut
 
 # yarn
-yarn install @dnijs/rut
+yarn install @rsgarate/rut
 
 # pnpm
-pnpm install @dnijs/rut
+pnpm install @rsgarate/rut
 ```
     
 ## Usage/Examples
