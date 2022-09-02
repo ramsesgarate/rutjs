@@ -17,12 +17,17 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "rut",
+    "dni",
+    "chile"
+  ],
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
     "lint": "eslint --ext .ts",
     "prepack": "unbuild",
-    "release": "pnpm test && standard-version && git push --follow-tags && pnpm publish",
+    "release": "pnpm test && standard-version && git push --follow-tags && pnpm publish --access=public",
     "test": "pnpm lint && vitest run --coverage"
   },
   "dependencies": {},
