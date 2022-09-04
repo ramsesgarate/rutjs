@@ -18,11 +18,11 @@ Simple and small library of utilities to validate, generate and format the RUT. 
 [npm-downloads-src]: https://img.shields.io/npm/dm/@rsgarate/rut?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@rsgarate/rut
 
-[github-actions-src]: https://img.shields.io/github/workflow/status/unjs/@rsgarate/rut/ci/main?style=flat-square
-[github-actions-href]: https://github.com/unjs/@rsgarate/rut/actions?query=workflow%3Aci
+[github-actions-src]: https://img.shields.io/github/workflow/status/ramsesgarate/rutjs/ci/main?style=flat-square
+[github-actions-href]: https://github.com/ramsesgarate/rutjs/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/gh/unjs/@rsgarate/rut/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/unjs/@rsgarate/rut
+[codecov-src]: https://img.shields.io/codecov/c/gh/ramsesgarate/rutjs/main?style=flat-square
+[codecov-href]: https://codecov.io/gh/ramsesgarate/rutjs
 
 ## Installation
 
