@@ -52,6 +52,7 @@ import {  clean, format, generate, getCheckDigit, isValid } from '@rsgarate/rut'
 clean('16.155.435-9')   // '161554359'
 
 format('161554359')    // '16.155.435-9'
+format('161554359', {dashAlone: true})    // '16155435-9'
 
 generate()    // 207377929
 
